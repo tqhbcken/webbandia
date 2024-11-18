@@ -1,0 +1,297 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "11",
+      "role": "customer"
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "11",
+      "role": "admin"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Rock"
+    },
+    {
+      "id": "2",
+      "name": "Jazz"
+    },
+    {
+      "id": "3",
+      "name": "Classical"
+    },
+    {
+      "id": "4",
+      "name": "Pop"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "categoryId": 1,
+      "price": 20.5,
+      "stock": 10,
+      "releaseDate": "1969-09-26",
+      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "The eleventh studio album by the English rock band the Beatles.",
+      "rating": 4.8
+    },
+    {
+      "id": "2",
+      "title": "Kind of Blue",
+      "artist": "Miles Davis",
+      "categoryId": 2,
+      "price": 18.99,
+      "stock": 5,
+      "releaseDate": "1959-08-17",
+      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "One of the most influential albums in the jazz genre.",
+      "rating": 4.9
+    },
+    {
+      "id": "3",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "categoryId": 4,
+      "price": 25,
+      "stock": 7,
+      "releaseDate": "1982-11-30",
+      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "The best-selling album of all time.",
+      "rating": 4.7
+    },
+    {
+      "id": "4",
+      "title": "The Four Seasons",
+      "artist": "Antonio Vivaldi",
+      "categoryId": 3,
+      "price": 15,
+      "stock": 8,
+      "releaseDate": "1725-01-01",
+      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "One of the most famous Baroque music compositions.",
+      "rating": 4.6
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productIds": [
+        1,
+        2
+      ],
+      "totalPrice": 39.49,
+      "orderDate": "2024-11-16",
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "productIds": [
+        3
+      ],
+      "totalPrice": 25,
+      "orderDate": "2024-11-15",
+      "status": "Completed"
+    },
+    {
+      "id": 1731947898816,
+      "customerInfo": {
+        "name": "f",
+        "phone": "f",
+        "address": "f"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Abbey Road",
+          "price": 20.5,
+          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+          "quantity": 4
+        },
+        {
+          "id": "2",
+          "title": "Kind of Blue",
+          "artist": "Miles Davis",
+          "categoryId": 2,
+          "price": 18.99,
+          "stock": 5,
+          "releaseDate": "1959-08-17",
+          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+          "description": "One of the most influential albums in the jazz genre.",
+          "rating": 4.9,
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "title": "The Four Seasons",
+          "artist": "Antonio Vivaldi",
+          "categoryId": 3,
+          "price": 15,
+          "stock": 8,
+          "releaseDate": "1725-01-01",
+          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+          "description": "One of the most famous Baroque music compositions.",
+          "rating": 4.6,
+          "quantity": 2
+        }
+      ],
+      "total": 30149.98,
+      "date": "2024-11-18T16:38:18.816Z",
+      "status": "pending",
+      "userId": "2",
+      "orderDate": "2024-11-18T16:38:18.850Z"
+    },
+    {
+      "id": 1731947920141,
+      "customerInfo": {
+        "name": "f",
+        "phone": "f",
+        "address": "f"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Abbey Road",
+          "artist": "The Beatles",
+          "categoryId": 1,
+          "price": 20.5,
+          "stock": 10,
+          "releaseDate": "1969-09-26",
+          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+          "description": "The eleventh studio album by the English rock band the Beatles.",
+          "rating": 4.8,
+          "quantity": 1
+        }
+      ],
+      "total": 30020.5,
+      "date": "2024-11-18T16:38:40.141Z",
+      "status": "pending",
+      "userId": "2",
+      "orderDate": "2024-11-18T16:38:40.150Z"
+    },
+    {
+      "id": 1731948178028,
+      "customerInfo": {
+        "name": "d",
+        "phone": "d",
+        "address": "d"
+      },
+      "items": [
+        {
+          "id": "1",
+          "title": "Abbey Road",
+          "artist": "The Beatles",
+          "categoryId": 1,
+          "price": 20.5,
+          "stock": 10,
+          "releaseDate": "1969-09-26",
+          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+          "description": "The eleventh studio album by the English rock band the Beatles.",
+          "rating": 4.8,
+          "quantity": 3
+        }
+      ],
+      "total": 30061.5,
+      "date": "2024-11-18T16:42:58.028Z",
+      "status": "pending",
+      "userId": "2",
+      "orderDate": "2024-11-18T16:42:58.036Z"
+    },
+    {
+      "id": 1731948475451,
+      "customerInfo": {
+        "name": "d",
+        "phone": "d",
+        "address": "đ"
+      },
+      "items": [
+        {
+          "id": "2",
+          "title": "Kind of Blue",
+          "artist": "Miles Davis",
+          "categoryId": 2,
+          "price": 18.99,
+          "stock": 5,
+          "releaseDate": "1959-08-17",
+          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+          "description": "One of the most influential albums in the jazz genre.",
+          "rating": 4.9,
+          "quantity": 1
+        }
+      ],
+      "total": 30018.99,
+      "date": "2024-11-18T16:47:55.451Z",
+      "status": "pending",
+      "userId": "2",
+      "orderDate": "2024-11-18T16:47:55.460Z"
+    }
+  ],
+  "artists": [
+    {
+      "id": "1",
+      "name": "The Beatles",
+      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "Ban nhạc rock huyền thoại người Anh, được thành lập tại Liverpool năm 1960.",
+      "genres": [
+        "Rock",
+        "Pop Rock"
+      ],
+      "albums": [
+        1
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "2",
+      "name": "Miles Davis",
+      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "Nghệ sĩ trumpet và nhà soạn nhạc jazz người Mỹ, một trong những nhân vật có ảnh hưởng nhất trong lịch sử jazz.",
+      "genres": [
+        "Jazz"
+      ],
+      "albums": [
+        2
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "3",
+      "name": "Michael Jackson",
+      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "Ông hoàng nhạc Pop, một trong những nghệ sĩ thành công và có ảnh hưởng nhất mọi thời đại.",
+      "genres": [
+        "Pop",
+        "R&B"
+      ],
+      "albums": [
+        3
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "4",
+      "name": "Antonio Vivaldi",
+      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "description": "Nhà soạn nhạc, nghệ sĩ violin người Ý thời kỳ Baroque.",
+      "genres": [
+        "Classical"
+      ],
+      "albums": [
+        4
+      ],
+      "rating": 4.7
+    }
+  ]
+}
