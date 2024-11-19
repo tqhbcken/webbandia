@@ -1,10 +1,10 @@
 // lưu trữ dữ liệu
 const state={
     products:[],
-    cart:[],
+    cart: JSON.parse(localStorage.getItem('cart')) || [],
     users:[],
     orders:[],
-    currentUser: null, 
+    currentUser: JSON.parse(localStorage.getItem('currentUser')) || null, 
     categories: [] 
 }
 export default state

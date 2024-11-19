@@ -1,15 +1,17 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from '@/components/ComHome'
-import ThucDon from '@/components/ComThucDon'
 import GioiThieu from '@/components/ComGioiThieu'
 import LienHe from '@/components/ComLienHe'
 import TinTuc from '@/components/ComTinTuc'
-import ProductDetail from '@/components/ComProductDetail'
 import Cart from '@/components/ComCart'
 import Register from '@/components/ComRegister'
 import Login from '@/components/ComLogin'
 import Albums from '@/components/Albums.vue';
 import AlbumDetail from '@/components/AlbumDetail.vue';
+import Checkout from '@/components/Checkout.vue';
+import OrderSuccess from '@/components/OrderSuccess.vue';
+import ArtistsList from '@/components/Artists.vue';
+import SearchList from '@/components/Search.vue';
 //Tạo mảng chứa đường link
 const routes = [
     {
@@ -18,11 +20,7 @@ const routes = [
         name: "Home",
         component: Home
     },
-    {
-        path: "/thucdon",
-        name: "ThucDon",
-        component: ThucDon
-    },
+
     {
         path: "/gioithieu",
         name: "GioiThieu",
@@ -39,9 +37,14 @@ const routes = [
         component: TinTuc
     },
     {
-        path: "/product/:id",
-        name: "ProductDetail",
-        component: ProductDetail
+        path: "/checkout",
+        name: "Checkout",
+        component: Checkout
+    },
+    {
+        path: "/ordersuccess/:orderId",
+        name: "OrderSuccess",
+        component: OrderSuccess
     },
     {
         path: "/cart",
@@ -64,6 +67,16 @@ const routes = [
         name: 'AlbumDetail',
         component: AlbumDetail,
         props: true,
+      },
+      {
+        path: '/artists',
+        name: 'ArtistsList',
+        component: ArtistsList
+      },
+      {
+        path: '/search',
+        name: 'SearchList',
+        component: SearchList
       },
 
 ]

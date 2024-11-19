@@ -1,9 +1,13 @@
 <template>
-  <div>
+  <div class="register-form">
     <h2>Đăng ký tài khoản</h2>
     <input v-model="username" placeholder="Tên đăng nhập" />
     <input v-model="password" type="password" placeholder="Mật khẩu" />
-    <input v-model="confirmPassword" type="password" placeholder="Xác nhận mật khẩu" />
+    <input
+      v-model="confirmPassword"
+      type="password"
+      placeholder="Xác nhận mật khẩu"
+    />
     <button @click="register">Đăng ký</button>
     <p v-if="error" class="error">{{ error }}</p>
     <p v-if="success" class="success">{{ success }}</p>
@@ -40,10 +44,10 @@ export default {
 
         // Đăng ký thành công
         this.success = "Đăng ký thành công!";
-        this.username = '';
-        this.password = '';
-        this.confirmPassword = '';
-        this.error = '';
+        this.username = "";
+        this.password = "";
+        this.confirmPassword = "";
+        this.error = "";
 
         // Chuyển hướng đến trang đăng nhập
         this.$router.push("/login");
@@ -57,6 +61,27 @@ export default {
 </script>
 
 <style>
+.register-form input {
+  display: block;
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.register-form button {
+  width: 10%;
+  padding: 12px;
+  background-color: #e83e8c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .error {
   color: red;
 }

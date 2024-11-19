@@ -13,6 +13,11 @@
       "email": "admin@example.com",
       "password": "11",
       "role": "admin"
+    },
+    {
+      "id": "2480",
+      "username": "kiki",
+      "password": "111"
     }
   ],
   "categories": [
@@ -38,11 +43,11 @@
       "id": "1",
       "title": "Abbey Road",
       "artist": "The Beatles",
-      "categoryId": 1,
+      "categoryId": "1",
       "price": 20.5,
       "stock": 10,
       "releaseDate": "1969-09-26",
-      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "coverImage": "abbey_road.png",
       "description": "The eleventh studio album by the English rock band the Beatles.",
       "rating": 4.8
     },
@@ -50,11 +55,11 @@
       "id": "2",
       "title": "Kind of Blue",
       "artist": "Miles Davis",
-      "categoryId": 2,
+      "categoryId": "2",
       "price": 18.99,
       "stock": 5,
       "releaseDate": "1959-08-17",
-      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "coverImage": "kind_of_blue.png",
       "description": "One of the most influential albums in the jazz genre.",
       "rating": 4.9
     },
@@ -62,11 +67,11 @@
       "id": "3",
       "title": "Thriller",
       "artist": "Michael Jackson",
-      "categoryId": 4,
+      "categoryId": "4",
       "price": 25,
       "stock": 7,
       "releaseDate": "1982-11-30",
-      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "coverImage": "thriller.png",
       "description": "The best-selling album of all time.",
       "rating": 4.7
     },
@@ -74,22 +79,204 @@
       "id": "4",
       "title": "The Four Seasons",
       "artist": "Antonio Vivaldi",
-      "categoryId": 3,
+      "categoryId": "3",
       "price": 15,
       "stock": 8,
       "releaseDate": "1725-01-01",
-      "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+      "coverImage": "four_seasons.png",
       "description": "One of the most famous Baroque music compositions.",
       "rating": 4.6
+    },
+    {
+      "id": "5",
+      "title": "The Wall",
+      "artist": "Pink Floyd",
+      "categoryId": "1",
+      "price": 22.5,
+      "stock": 6,
+      "releaseDate": "1979-11-30",
+      "coverImage": "the_wall.png",
+      "description": "A concept album by Pink Floyd about isolation and despair.",
+      "rating": 4.8
+    },
+    {
+      "id": "6",
+      "title": "Blue Train",
+      "artist": "John Coltrane",
+      "categoryId": "2",
+      "price": 19.5,
+      "stock": 4,
+      "releaseDate": "1958-09-15",
+      "coverImage": "blue_train.png",
+      "description": "A classic hard bop jazz album.",
+      "rating": 4.7
+    },
+    {
+      "id": "7",
+      "title": "Bad",
+      "artist": "Michael Jackson",
+      "categoryId": "4",
+      "price": 21,
+      "stock": 9,
+      "releaseDate": "1987-08-31",
+      "coverImage": "bad.png",
+      "description": "One of Michael Jackson's most successful albums.",
+      "rating": 4.6
+    },
+    {
+      "id": "8",
+      "title": "Beethoven: Symphony No. 9",
+      "artist": "Ludwig van Beethoven",
+      "categoryId": "3",
+      "price": 17.99,
+      "stock": 10,
+      "releaseDate": "1824-05-07",
+      "coverImage": "symphony_no_9.png",
+      "description": "The legendary symphony with the 'Ode to Joy'.",
+      "rating": 4.9
+    },
+    {
+      "id": "9",
+      "title": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "categoryId": "1",
+      "price": 24,
+      "stock": 5,
+      "releaseDate": "1971-11-08",
+      "coverImage": "led_zeppelin_iv.png",
+      "description": "Features 'Stairway to Heaven', a rock classic.",
+      "rating": 4.8
+    },
+    {
+      "id": "10",
+      "title": "A Love Supreme",
+      "artist": "John Coltrane",
+      "categoryId": "2",
+      "price": 20,
+      "stock": 7,
+      "releaseDate": "1965-01-12",
+      "coverImage": "a_love_supreme.png",
+      "description": "A spiritual jazz masterpiece.",
+      "rating": 4.9
+    }
+  ],
+  "artists": [
+    {
+      "id": "1",
+      "name": "The Beatles",
+      "image": "the_beatles.png",
+      "description": "Legendary English rock band formed in Liverpool in 1960.",
+      "genres": [
+        "Rock",
+        "Pop Rock"
+      ],
+      "albums": [
+        "1"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "2",
+      "name": "Miles Davis",
+      "image": "miles_davis.png",
+      "description": "American jazz trumpeter and composer, a major influence in jazz history.",
+      "genres": [
+        "Jazz"
+      ],
+      "albums": [
+        "2"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "3",
+      "name": "Michael Jackson",
+      "image": "michael_jackson.png",
+      "description": "The King of Pop, one of the most successful and influential artists.",
+      "genres": [
+        "Pop",
+        "R&B"
+      ],
+      "albums": [
+        "3",
+        "7"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "4",
+      "name": "Antonio Vivaldi",
+      "image": "antonio_vivaldi.png",
+      "description": "Italian Baroque composer and violinist.",
+      "genres": [
+        "Classical"
+      ],
+      "albums": [
+        "4"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "5",
+      "name": "Pink Floyd",
+      "image": "pink_floyd.png",
+      "description": "English rock band known for their progressive and psychedelic music.",
+      "genres": [
+        "Rock"
+      ],
+      "albums": [
+        "5"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "6",
+      "name": "John Coltrane",
+      "image": "john_coltrane.png",
+      "description": "One of the most influential saxophonists in jazz history.",
+      "genres": [
+        "Jazz"
+      ],
+      "albums": [
+        "6",
+        "10"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "7",
+      "name": "Ludwig van Beethoven",
+      "image": "KanyeWest.png",
+      "description": "German composer and pianist, a central figure in classical music.",
+      "genres": [
+        "Classical"
+      ],
+      "albums": [
+        "8"
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "8",
+      "name": "Led Zeppelin",
+      "image": "led_zeppelin.png",
+      "description": "English rock band formed in 1968, known for their hard rock sound.",
+      "genres": [
+        "Rock"
+      ],
+      "albums": [
+        "9"
+      ],
+      "rating": 4.8
     }
   ],
   "orders": [
     {
       "id": "1",
-      "userId": 1,
+      "userId": "1",
       "productIds": [
-        1,
-        2
+        "1",
+        "2"
       ],
       "totalPrice": 39.49,
       "orderDate": "2024-11-16",
@@ -97,16 +284,16 @@
     },
     {
       "id": "2",
-      "userId": 1,
+      "userId": "1",
       "productIds": [
-        3
+        "3"
       ],
       "totalPrice": 25,
       "orderDate": "2024-11-15",
       "status": "Completed"
     },
     {
-      "id": 1731947898816,
+      "id": "1731947898816",
       "customerInfo": {
         "name": "f",
         "phone": "f",
@@ -117,181 +304,43 @@
           "id": "1",
           "title": "Abbey Road",
           "price": 20.5,
-          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
+          "coverImage": "abbey_road.png",
           "quantity": 4
         },
         {
           "id": "2",
           "title": "Kind of Blue",
-          "artist": "Miles Davis",
-          "categoryId": 2,
           "price": 18.99,
-          "stock": 5,
-          "releaseDate": "1959-08-17",
-          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
-          "description": "One of the most influential albums in the jazz genre.",
-          "rating": 4.9,
+          "coverImage": "kind_of_blue.png",
           "quantity": 2
+        }
+      ],
+      "totalPrice": 118.96,
+      "orderDate": "2024-11-18"
+    },
+    {
+      "id": "0d63",
+      "userId": "2",
+      "products": [
+        {
+          "id": "3",
+          "title": "Thriller",
+          "quantity": 7,
+          "price": 25
         },
         {
           "id": "4",
           "title": "The Four Seasons",
-          "artist": "Antonio Vivaldi",
-          "categoryId": 3,
-          "price": 15,
-          "stock": 8,
-          "releaseDate": "1725-01-01",
-          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
-          "description": "One of the most famous Baroque music compositions.",
-          "rating": 4.6,
-          "quantity": 2
+          "quantity": 8,
+          "price": 15
         }
       ],
-      "total": 30149.98,
-      "date": "2024-11-18T16:38:18.816Z",
+      "totalPrice": 295,
+      "address": "quận ba mươi hai",
+      "phone": "0362520153",
+      "paymentMethod": "cash",
       "status": "pending",
-      "userId": "2",
-      "orderDate": "2024-11-18T16:38:18.850Z"
-    },
-    {
-      "id": 1731947920141,
-      "customerInfo": {
-        "name": "f",
-        "phone": "f",
-        "address": "f"
-      },
-      "items": [
-        {
-          "id": "1",
-          "title": "Abbey Road",
-          "artist": "The Beatles",
-          "categoryId": 1,
-          "price": 20.5,
-          "stock": 10,
-          "releaseDate": "1969-09-26",
-          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
-          "description": "The eleventh studio album by the English rock band the Beatles.",
-          "rating": 4.8,
-          "quantity": 1
-        }
-      ],
-      "total": 30020.5,
-      "date": "2024-11-18T16:38:40.141Z",
-      "status": "pending",
-      "userId": "2",
-      "orderDate": "2024-11-18T16:38:40.150Z"
-    },
-    {
-      "id": 1731948178028,
-      "customerInfo": {
-        "name": "d",
-        "phone": "d",
-        "address": "d"
-      },
-      "items": [
-        {
-          "id": "1",
-          "title": "Abbey Road",
-          "artist": "The Beatles",
-          "categoryId": 1,
-          "price": 20.5,
-          "stock": 10,
-          "releaseDate": "1969-09-26",
-          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
-          "description": "The eleventh studio album by the English rock band the Beatles.",
-          "rating": 4.8,
-          "quantity": 3
-        }
-      ],
-      "total": 30061.5,
-      "date": "2024-11-18T16:42:58.028Z",
-      "status": "pending",
-      "userId": "2",
-      "orderDate": "2024-11-18T16:42:58.036Z"
-    },
-    {
-      "id": 1731948475451,
-      "customerInfo": {
-        "name": "d",
-        "phone": "d",
-        "address": "đ"
-      },
-      "items": [
-        {
-          "id": "2",
-          "title": "Kind of Blue",
-          "artist": "Miles Davis",
-          "categoryId": 2,
-          "price": 18.99,
-          "stock": 5,
-          "releaseDate": "1959-08-17",
-          "coverImage": "hosonohouse-blackvinyl-1_1000x1000.png",
-          "description": "One of the most influential albums in the jazz genre.",
-          "rating": 4.9,
-          "quantity": 1
-        }
-      ],
-      "total": 30018.99,
-      "date": "2024-11-18T16:47:55.451Z",
-      "status": "pending",
-      "userId": "2",
-      "orderDate": "2024-11-18T16:47:55.460Z"
-    }
-  ],
-  "artists": [
-    {
-      "id": "1",
-      "name": "The Beatles",
-      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
-      "description": "Ban nhạc rock huyền thoại người Anh, được thành lập tại Liverpool năm 1960.",
-      "genres": [
-        "Rock",
-        "Pop Rock"
-      ],
-      "albums": [
-        1
-      ],
-      "rating": 4.9
-    },
-    {
-      "id": "2",
-      "name": "Miles Davis",
-      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
-      "description": "Nghệ sĩ trumpet và nhà soạn nhạc jazz người Mỹ, một trong những nhân vật có ảnh hưởng nhất trong lịch sử jazz.",
-      "genres": [
-        "Jazz"
-      ],
-      "albums": [
-        2
-      ],
-      "rating": 4.8
-    },
-    {
-      "id": "3",
-      "name": "Michael Jackson",
-      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
-      "description": "Ông hoàng nhạc Pop, một trong những nghệ sĩ thành công và có ảnh hưởng nhất mọi thời đại.",
-      "genres": [
-        "Pop",
-        "R&B"
-      ],
-      "albums": [
-        3
-      ],
-      "rating": 4.9
-    },
-    {
-      "id": "4",
-      "name": "Antonio Vivaldi",
-      "image": "hosonohouse-blackvinyl-1_1000x1000.png",
-      "description": "Nhà soạn nhạc, nghệ sĩ violin người Ý thời kỳ Baroque.",
-      "genres": [
-        "Classical"
-      ],
-      "albums": [
-        4
-      ],
-      "rating": 4.7
+      "orderDate": "2024-11-19T07:51:57.346Z"
     }
   ]
 }

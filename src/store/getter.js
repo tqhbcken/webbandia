@@ -6,7 +6,17 @@ const getters = {
     categories: (state) => state.categories,
     filteredProducts: (state) => (categoryId) => {
         return state.products.filter(product => product.categoryId === categoryId)
-    }
+    },
+    cartTotal: state => {
+      return state.cart.reduce((total, item) => {
+        return total + (item.price * item.quantity);
+      }, 0);
+    },
+    cartItemCount: state => {
+      return state.cart.reduce((total, item) => {
+        return total + item.quantity;
+      }, 0);
+    },
 }
   
 export default getters;
