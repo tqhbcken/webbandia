@@ -45,7 +45,7 @@
       "artist": "The Beatles",
       "categoryId": "1",
       "price": 20.5,
-      "stock": 10,
+      "stock": 4,
       "releaseDate": "1969-09-26",
       "coverImage": "abbey_road.png",
       "description": "The eleventh studio album by the English rock band the Beatles.",
@@ -57,7 +57,7 @@
       "artist": "Miles Davis",
       "categoryId": "2",
       "price": 18.99,
-      "stock": 5,
+      "stock": 0,
       "releaseDate": "1959-08-17",
       "coverImage": "kind_of_blue.png",
       "description": "One of the most influential albums in the jazz genre.",
@@ -69,7 +69,7 @@
       "artist": "Michael Jackson",
       "categoryId": "4",
       "price": 25,
-      "stock": 7,
+      "stock": 3,
       "releaseDate": "1982-11-30",
       "coverImage": "thriller.png",
       "description": "The best-selling album of all time.",
@@ -81,7 +81,7 @@
       "artist": "Antonio Vivaldi",
       "categoryId": "3",
       "price": 15,
-      "stock": 8,
+      "stock": 5,
       "releaseDate": "1725-01-01",
       "coverImage": "four_seasons.png",
       "description": "One of the most famous Baroque music compositions.",
@@ -341,6 +341,126 @@
       "paymentMethod": "cash",
       "status": "pending",
       "orderDate": "2024-11-19T07:51:57.346Z"
+    },
+    {
+      "id": "55dd",
+      "userId": "2",
+      "products": [
+        {
+          "id": "4",
+          "title": "The Four Seasons",
+          "quantity": 1,
+          "price": 15
+        },
+        {
+          "id": "1",
+          "title": "Abbey Road",
+          "quantity": 3,
+          "price": 20.5
+        },
+        {
+          "id": "2",
+          "title": "Kind of Blue",
+          "quantity": 4,
+          "price": 18.99
+        }
+      ],
+      "totalPrice": 152.45999999999998,
+      "address": "quận ba mươi hai",
+      "phone": "0362520153",
+      "paymentMethod": "cash",
+      "status": "pending",
+      "orderDate": "2024-11-19T18:33:54.951Z"
+    },
+    {
+      "id": "d92d",
+      "userId": "2",
+      "products": [
+        {
+          "id": "1",
+          "title": "Abbey Road",
+          "quantity": 3,
+          "price": 20.5
+        }
+      ],
+      "totalPrice": 61.5,
+      "address": "quận ba mươi hai",
+      "phone": "0362520153",
+      "paymentMethod": "cash",
+      "status": "pending",
+      "orderDate": "2024-11-19T18:41:08.609Z"
+    },
+    {
+      "id": "cb14",
+      "userId": "2",
+      "products": [
+        {
+          "id": "3",
+          "title": "Thriller",
+          "quantity": 2,
+          "price": 25
+        }
+      ],
+      "totalPrice": 50,
+      "address": "quận ba mươi hai",
+      "phone": "0362520153",
+      "paymentMethod": "cash",
+      "status": "pending",
+      "orderDate": "2024-11-20T02:34:16.574Z"
+    },
+    {
+      "id": "0e77",
+      "userId": "2",
+      "products": [
+        {
+          "id": "4",
+          "title": "The Four Seasons",
+          "quantity": 2,
+          "price": 15
+        }
+      ],
+      "totalPrice": 30,
+      "address": "quận gò vấp, thành phố HCM",
+      "phone": "0362520153",
+      "paymentMethod": "cash",
+      "status": "pending",
+      "orderDate": "2024-11-20T03:36:08.689Z"
+    },
+    {
+      "id": "c4b2",
+      "userId": "2",
+      "products": [
+        {
+          "id": "3",
+          "title": "Thriller",
+          "quantity": 2,
+          "price": 25
+        }
+      ],
+      "totalPrice": 50,
+      "address": "quận gò vấp, thành phố HCM",
+      "phone": "0362520153",
+      "paymentMethod": "cash",
+      "status": "pending",
+      "orderDate": "2024-11-20T07:48:22.321Z"
+    },
+    {
+      "id": "fd73",
+      "userId": "2",
+      "products": [
+        {
+          "id": "2",
+          "title": "Kind of Blue",
+          "quantity": 1,
+          "price": 18.99
+        }
+      ],
+      "totalPrice": 18.99,
+      "address": "quận gò vấp, thành phố HCM",
+      "phone": "0362520153",
+      "paymentMethod": "cash",
+      "status": "pending",
+      "orderDate": "2024-11-20T07:51:33.845Z"
     }
   ]
 }
